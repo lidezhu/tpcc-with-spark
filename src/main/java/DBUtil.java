@@ -254,14 +254,12 @@ public class DBUtil implements TpccConstants {
             fields.add("o_d_id");
             fields.add("o_w_id");
             fields.add("o_c_id");
-            fields.add("o_entry_d");
             fields.add("o_ol_cnt");
             fields.add("o_all_local");
             results.add(Integer.toString(o_id));
             results.add(Integer.toString(d_id));
             results.add(Integer.toString(w_id));
             results.add(Integer.toString(c_id));
-            results.add(currentTimeStamp);
             results.add(Integer.toString(o_ol_cnt));
             results.add(Integer.toString(o_all_local));
 
